@@ -16,6 +16,7 @@ from gensim.models import Word2Vec
 
 # Загрузка необходимых ресурсов NLTK
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('vader_lexicon')
 
